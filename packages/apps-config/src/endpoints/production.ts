@@ -126,6 +126,13 @@ export function createProduction (t: TFunction): LinkOption[] {
       }
     },
     {
+      info: 'nuchain',
+      text: t('rpc.nuchain', 'Nuchain', { ns: 'apps-config' }),
+      providers: {
+        'Rantai Nusantara': 'ws://127.0.0.1:9944',
+      }
+    },
+    {
       info: 'plasm',
       text: t('rpc.plasm', 'Plasm', { ns: 'apps-config' }),
       providers: {
