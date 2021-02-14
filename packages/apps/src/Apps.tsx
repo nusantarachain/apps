@@ -12,7 +12,7 @@ import GlobalStyle from '@polkadot/react-components/styles';
 import { useApi } from '@polkadot/react-hooks';
 import Signer from '@polkadot/react-signer';
 
-import ConnectingOverlay from './overlays/Connecting';
+// import ConnectingOverlay from './overlays/Connecting';
 import Content from './Content';
 import Menu from './Menu';
 import WarmUp from './WarmUp';
@@ -37,7 +37,7 @@ function Apps ({ className = '' }: Props): React.ReactElement<Props> {
           <Signer>
             <Content />
           </Signer>
-          <ConnectingOverlay />
+          {/* <ConnectingOverlay /> */}
           <div id={PORTAL_ID} />
         </AccountSidebar>
       </div>

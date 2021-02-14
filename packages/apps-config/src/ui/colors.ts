@@ -27,7 +27,7 @@ const chainPolkadex = '#7C30DD';
 const chainPolkadot = '#e6007a';
 const chainKilt = '#8c175b';
 const chainKusama = '#000000';
-const chainNuchain = "linear-gradient(-45deg, #064a10 0%, #219436 71%, #064a10 100%)";
+const chainNuchain = 'linear-gradient(-45deg, #064a10 0%, #219436 71%, #064a10 100%)';
 const chainRocco = '#6f36dc';
 const chainRoccoAcala = '#173DC9';
 const chainRoccoAres = '#70FF8B';
@@ -72,7 +72,7 @@ const nodeSubsocial = '#b9018c';
 const nodeTernoa = '#d622ff';
 const nodeZero = '#0099cc';
 const nodeZenlink = 'linear-gradient(45deg, #F20082 0%, #FF4D4D 100%)';
-const nodeNuchain = "#linear-gradient(-45deg, #0dde30 0%, #219436 71%, #a6db4b 100%)";
+const nodeNuchain = '#linear-gradient(-45deg, #0dde30 0%, #219436 71%, #a6db4b 100%)';
 
 export { emptyColor };
 

@@ -124,7 +124,7 @@ function Menu ({ className = '' }: Props): React.ReactElement<Props> {
 
   const isLoading = !apiProps.isApiReady || !apiProps.isApiConnected;
 
-  return (
+  return !isLoading ? (
     <div className={`${className}${isLoading ? ' isLoading' : ''} highlight--bg`}>
       <div className='menuSection'>
         <ChainInfo />
@@ -157,7 +157,7 @@ function Menu ({ className = '' }: Props): React.ReactElement<Props> {
       </div>
       <NodeInfo />
     </div>
-  );
+  ) : null;
 }
 
 export default React.memo(styled(Menu)(({ theme }: ThemeProps) => `
