@@ -31,8 +31,8 @@ const disabledLog = new Map<string, string>();
 
 function createExternals (t: TFunction): ItemRoute[] {
   return [
-    { href: 'https://github.com/polkadot-js/apps', icon: 'code-branch', name: 'github', text: t<string>('nav.github', 'GitHub', { ns: 'apps-routing' }) },
-    { href: 'https://wiki.polkadot.network', icon: 'book', name: 'wiki', text: t<string>('nav.wiki', 'Wiki', { ns: 'apps-routing' }) }
+    { href: 'https://github.com/nusantarachain/apps', icon: 'code-branch', name: 'github', text: t<string>('nav.github', 'GitHub', { ns: 'apps-routing' }) },
+    { href: 'https://github.com/nusantarachain/nuchain', icon: 'book', name: 'wiki', text: t<string>('nav.info', 'Info', { ns: 'apps-routing' }) }
   ];
 }
 
@@ -157,7 +157,7 @@ function Menu ({ className = '' }: Props): React.ReactElement<Props> {
       </div>
       <NodeInfo />
     </div>
-  ) : null;
+  ) : <div />;
 }
 
 export default React.memo(styled(Menu)(({ theme }: ThemeProps) => `

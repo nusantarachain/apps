@@ -40,7 +40,7 @@ function getApiUrl (): string {
   }
 
   const stored = store.get('settings') as Record<string, unknown> || {};
-  const fallbackUrl = endpoints.find(({ value }) => !!value);
+  const fallbackUrl = endpoints.find(({ value }) => !!value && value.toString().search("nuchain") > -1 );
 
   console.log("settings.apiUrl=", settings.apiUrl);
   console.log("fallbackUrl=", fallbackUrl);

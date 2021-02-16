@@ -72,7 +72,7 @@ const nodeSubsocial = '#b9018c';
 const nodeTernoa = '#d622ff';
 const nodeZero = '#0099cc';
 const nodeZenlink = 'linear-gradient(45deg, #F20082 0%, #FF4D4D 100%)';
-const nodeNuchain = '#linear-gradient(-45deg, #0dde30 0%, #219436 71%, #a6db4b 100%)';
+// const nodeNuchain = '#linear-gradient(-45deg, #0dde30 0%, #219436 71%, #a6db4b 100%)';
 
 export { emptyColor };
 
@@ -112,7 +112,7 @@ export const chainColors: Record<string, any> = [
   ['Moonbase Alpha', nodeMoonbeam],
   ['Moonbase Stage', nodeMoonbeam],
   ['Moonbase Development Testnet', nodeMoonbeam],
-  ['NUCHAIN', chainNuchain],
+  ['Nuchain', chainNuchain],
   ['Phala PC1', chainPhala],
   ['Phala poc 3', chainPhala],
   ['Plasm', chainPlasm],
@@ -154,7 +154,7 @@ export const nodeColors: Record<string, any> = [
   ['Jupiter Node', nodeJupiter],
   ['Litentry Parachain Collator', nodeLitentry],
   ['nodle chain node', nodeNodle],
-  ['Nuchain/Rantara Node', nodeNuchain],
+  // ['Nuchain/Rantara Node', nodeNuchain],
   ['Polkadex Node', nodePolkadex],
   ['SORA-staging Node', nodeSora],
   ['Stafi node', nodeStafi],

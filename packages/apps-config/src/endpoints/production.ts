@@ -39,10 +39,11 @@ export function createProduction (t: TFunction): LinkOption[] {
     },
     // alphabetical based on chain name
     {
+      dnslink: 'nuchain',
       info: 'nuchain',
       text: t('rpc.nuchain', 'Nuchain', { ns: 'apps-config' }),
       providers: {
-        'Rantai Nusantara': 'ws://127.0.0.1:9944'
+        'Rantai Nusantara': 'wss://nuchain.misiku.id/socket'
       }
     },
   ]);
