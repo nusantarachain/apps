@@ -51,6 +51,7 @@ import nodeLitentry from './nodes/litentry.png';
 import nodeMath from './nodes/math.svg';
 import moonbeam from './nodes/moonbeam.png';
 import nodeNodle from './nodes/nodle.svg';
+import nodeNuchain from './nodes/nuchain.png';
 import nodePhala from './nodes/phala.svg';
 import nodePlasm from './nodes/plasm.png';
 import nodePolkaBTC from './nodes/polkabtc.png';
@@ -95,6 +96,7 @@ export const chainLogos: Record<string, unknown> = [
   ['Moonbase Alpha', moonbeam],
   ['Moonbase Stage', moonbeam],
   ['Moonbase Development Testnet', moonbeam],
+  ['Nuchain', nodeNuchain],
   ['PolkaBTC', nodePolkaBTC],
   ['PolkaBTC Staging', nodePolkaBTC],
   ['Polkadex Testnet', nodePolkadex],
@@ -154,6 +156,7 @@ export const nodeLogos: Record<string, unknown> = [
   ['Litentry Parachain Collator', nodeLitentry],
   ['node-template', nodeSubstrate],
   ['Nodle Chain Node', nodeNodle],
+  ['Nuchain', nodeNuchain],
   ['Polkadex Node', nodePolkadex],
   ['parity-polkadot', nodePolkadot],
   ['Plasm', nodePlasm],
@@ -218,6 +221,7 @@ export const namedLogos: Record<string, unknown> = {
   laminar: nodeLaminar,
   moonbaseAlpha: moonbeam,
   nodle: nodeNodle,
+  nuchain: nodeNuchain,
   phala: nodePhala,
   plasm: nodePlasm,
   polkabtc: nodePolkaBTC,

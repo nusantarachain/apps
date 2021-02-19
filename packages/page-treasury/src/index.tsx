@@ -28,11 +28,14 @@ function TreasuryApp ({ basePath }: Props): React.ReactElement<Props> {
 
   useEffect((): void => {
     if (tipHashTrigger && mountedRef.current) {
-      (api.query.tips || api.query.treasury).tips.keys().then((keys) =>
+      const tips = (api.query.tips || api.query.treasury).tips;
+      if (tips){
+      tips.keys().then((keys) =>
         mountedRef.current && setTipHashes(
           keys.map((key) => key.args[0].toHex())
         )
       ).catch(console.error);
+        }
     }
   }, [api, tipHashTrigger, mountedRef]);
 

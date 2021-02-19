@@ -43,7 +43,7 @@ export function createProduction (t: TFunction): LinkOption[] {
       info: 'nuchain',
       text: t('rpc.nuchain', 'Nuchain', { ns: 'apps-config' }),
       providers: {
-        'Rantai Nusantara': 'wss://nuchain.misiku.id/socket'
+        'Rantai Nusantara': 'wss://node-sg.nuchain.riset.tech'
       }
     },
   ]);
