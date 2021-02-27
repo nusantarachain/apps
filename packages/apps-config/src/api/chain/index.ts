@@ -9,5 +9,6 @@ import Nuchain from './nuchain';
 export default {
   Galois: Galois,
   'Phala PoC-3': Phala,
-  'Nuchain': Nuchain
+  'Nuchain': Nuchain,
+  'Development': Nuchain
 };
